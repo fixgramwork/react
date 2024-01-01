@@ -1,7 +1,5 @@
-import MyComponent from './MyComponent';
-
-const App = () => {
-  return <MyComponent name="React" />;
+const MyComponent = props => {
+    return <div>안녕하세요, 제 이름은 {props.name}입니다.</div>;
 };
 
-export default App;
+export default MyComponent;
