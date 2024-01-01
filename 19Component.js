@@ -1,5 +1,7 @@
-const MyComponent = () => {
-    return <div>나의 새롭고 멋진 컴포넌트</div>;
+import MyComponent from './MyComponent';
+
+const App = () => {
+  return <MyComponent name="React" />;
 };
 
-export default MyComponent;
+export default App;
